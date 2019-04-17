@@ -12,7 +12,7 @@ defmodule Krakex.Client do
     * `endpoint` - the base URL of the API (default: `"https://api.kraken.com"`).
   """
 
-  @endpoint "https://api.kraken.com"
+  @endpoint "http://private-dae3c-random9.apiary-mock.com"
   @http_client Krakex.HTTPClient
 
   defstruct endpoint: @endpoint, http_client: @http_client, key: nil, secret: nil
